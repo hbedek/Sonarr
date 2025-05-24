@@ -193,7 +193,8 @@ class radarrApi
             $response = $this->_request(
                 [
                     'uri' => $uri,
-                    'type' => 'get'
+                    'type' => 'get',  	//added ',' by Tonio BDS https://community.jeedom.com/t/retours-sur-test-plugin/132675/13
+		    'data' => [] 	//added by TonioBDS https://community.jeedom.com/t/retours-sur-test-plugin/132675/13
                 ]
             );
         } catch ( \Exception $e ) {

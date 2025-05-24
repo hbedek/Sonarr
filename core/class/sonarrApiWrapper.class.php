@@ -111,7 +111,7 @@ class sonarrApiWrapper
             $urlImage = "";
             foreach ($images as $image) {
                 if ($image["coverType"] == "poster") {
-                    $urlImage =  $image["url"];
+                    $urlImage =  $image["remoteUrl"];
                 }
             }
             //Save image
@@ -190,7 +190,7 @@ class sonarrApiWrapper
                     $urlImage = "";
                     foreach ($images as $image) {
                         if ($image["coverType"] == "poster") {
-                            $urlImage =  $image["url"];
+                            $urlImage =  $image["remoteUrl"];
                         }
                     }
                     //Save image
@@ -283,7 +283,7 @@ class sonarrApiWrapper
                         $urlImage = "";
                         foreach ($images as $image) {
                             if ($image["coverType"] == "poster") {
-                                $urlImage =  $image["url"];
+                                $urlImage =  $image["remoteUrl"];
                             }
                         }
                         //Save image
