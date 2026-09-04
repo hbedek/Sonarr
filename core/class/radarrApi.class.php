@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/../../resources/vendor/autoload.php';
+
 use GuzzleHttp\Client;
 
 class radarrApi
