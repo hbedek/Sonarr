@@ -10,6 +10,7 @@
 .div_vertical{
     display:flex; 
     flex-direction: row;
+  	flex-wrap:wrap; //Tonio Ajout pour Overseer
 }
 .info_data{
     flex: 1;

@@ -51,6 +51,8 @@ class sonarrApiWrapper
         } else {
             $context->checkAndUpdateCmd('monitoredSeries', $liste_monitored_series);
         }
+        LogSonarr::info('Nettoyage des images SONARR');
+        Sonarr::cleanUnusedImages($context);
         LogSonarr::info('stop REFRESH SONARR');
     }
     public function getSeparatorEpisodes($context)
