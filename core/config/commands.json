@@ -390,5 +390,62 @@
             "isVisible": 1,
             "isHistorized": 0
         }
+    ],
+    "overseerr": [
+        {
+            "logicalId": "refresh",
+            "name": "Rafraichir",
+            "type": "action",
+            "subtype": "other",
+            "isVisible": 1
+        },
+        {
+            "logicalId": "day_pending",
+            "name": "Demandes en attente",
+            "type": "info",
+            "subtype": "string",
+            "isVisible": 1,
+            "isHistorized": 0
+        },
+        {
+            "logicalId": "day_pending_raw",
+            "name": "Demandes en attente raw",
+            "type": "info",
+            "subtype": "string",
+            "isVisible": 1,
+            "isHistorized": 0
+        },
+        {
+            "logicalId": "day_approved",
+            "name": "Demandes acceptées",
+            "type": "info",
+            "subtype": "string",
+            "isVisible": 1,
+            "isHistorized": 0
+        },
+        {
+            "logicalId": "day_approved_raw",
+            "name": "Demandes acceptées raw",
+            "type": "info",
+            "subtype": "string",
+            "isVisible": 1,
+            "isHistorized": 0
+        },
+        {
+            "logicalId": "day_declined",
+            "name": "Demandes refusées",
+            "type": "info",
+            "subtype": "string",
+            "isVisible": 1,
+            "isHistorized": 0
+        },
+        {
+            "logicalId": "day_declined_raw",
+            "name": "Demandes refusées raw",
+            "type": "info",
+            "subtype": "string",
+            "isVisible": 1,
+            "isHistorized": 0
+        }
     ]
 }

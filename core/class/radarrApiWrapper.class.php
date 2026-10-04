@@ -42,6 +42,8 @@ class radarrApiWrapper
         LogSonarr::info('notify for last downloaded movies');
         $last_refresh_date = $context->getCmd(null, 'last_episode')->getValueDate();
         $this->notifyMovie('radarr', $last_refresh_date, $context);
+        LogSonarr::info('Nettoyage des images RADARR');
+        Sonarr::cleanUnusedImages($context);
         LogSonarr::info('stop REFRESH RADARR');
     }
 
